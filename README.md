@@ -1,6 +1,6 @@
 # Cybersecurity 150 Midterm-Project
 
-# by Emmanuel Apeatu and Pooran Dunraj
+## by Emmanuel Apeatu and Pooran Dunraj
 
 ## Name of Project
 
