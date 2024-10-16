@@ -8,6 +8,10 @@
 
 ## Equipment
 
+## Describe the project?
+## What does the project do? 
+## Why do you find it interesting?
+
 ## Link to Documentation Followed
 
 ##### Other Links:
