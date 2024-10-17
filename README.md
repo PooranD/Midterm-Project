@@ -11,9 +11,7 @@
 ## This project uses an ESP32 as a device to detect machines trying to connnect to a Wifi it is assigned to. 
 
 ## Why do you find it interesting?
-## Link to Documentation Followed
-
-##### Any other Links:
+We found this project interesting because it is an easy way to create an IDS for personal home network usage.
 
 ## Steps we followed
 Steps Followed for Logging Unknown MAC Addresses
