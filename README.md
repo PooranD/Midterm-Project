@@ -2,9 +2,9 @@
 
 ## by Emmanuel Apeatu and Pooran Dunraj
 
-## Name of Project
+## ESP32 as a WiFi Intrusion Detection System
 
-## Purpose
+## The purpose of this project is to utilize ESP32 as a Wifi Intrusion Detection System. It will detect machines trying to connect to an assigned Wifi.
 
 ## Equipment
 
