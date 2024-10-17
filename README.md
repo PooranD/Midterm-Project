@@ -9,9 +9,7 @@
 ## An ESP32 and a computer is required to perform this project.
 
 ## This project uses an ESP32 as a device to detect machines trying to connnect to a Wifi it is assigned to. 
-## What does the project do? 
 ## Why do you find it interesting?
-
 ## Link to Documentation Followed
 
 ##### Other Links:
