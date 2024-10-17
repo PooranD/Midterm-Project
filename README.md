@@ -13,7 +13,7 @@
 ## Why do you find it interesting?
 ## Link to Documentation Followed
 
-##### Other Links:
+##### Any other Links:
 
 ## Steps we followed
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
