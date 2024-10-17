@@ -2,9 +2,9 @@
 
 ## by Emmanuel Apeatu and Pooran Dunraj
 
-## ESP32 as a Home Network Watchdog
+## ESP32 as a WiFi Intrusion Detection System
 
-## The purpose of this project is to utilize ESP32 as a Home Network Watchdog. It will detect log the unkown mac address of machines connecting to an assigned Wifi.
+## The purpose of this project is to utilize ESP32 as a WiFi Intrusion Detection System. It will detect log the unkown mac address of machines connecting to an assigned Wifi.
 
 ## An ESP32 and a computer is required to perform this project.
 
