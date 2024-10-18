@@ -1,4 +1,4 @@
-# Cybersecurity 150 Midterm-Project
+# CSN 150 Midterm-Project
 
 ## ESP32 as a WiFi Intrusion Detection System
 
