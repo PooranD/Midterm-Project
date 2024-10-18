@@ -1,8 +1,8 @@
 # Cybersecurity 150 Midterm-Project
 
-## by Emmanuel Apeatu and Pooran Dunraj
-
 ## ESP32 as a WiFi Intrusion Detection System
+
+## by Emmanuel Apeatu and Pooran Dunraj
 
 ## Purpose
 The purpose of this project is to utilize ESP32 as a WiFi Intrusion Detection System. It will detect and log the unkown mac address of machines connecting to an assigned Wifi.
