@@ -4,11 +4,14 @@
 
 ## ESP32 as a WiFi Intrusion Detection System
 
-## The purpose of this project is to utilize ESP32 as a WiFi Intrusion Detection System. It will detect and log the unkown mac address of machines connecting to an assigned Wifi.
+## Purpose
+The purpose of this project is to utilize ESP32 as a WiFi Intrusion Detection System. It will detect and log the unkown mac address of machines connecting to an assigned Wifi.
 
-## An ESP32 and a computer is required to perform this project.
+## Equipment
+An ESP32 and a computer is required to perform this project.
 
-## This project uses an ESP32 as a device to detect machines trying to connnect to a Wifi it is assigned to. 
+## What does the project do?  
+This project uses an ESP32 as a device to detect machines trying to connnect to a Wifi it is assigned to. 
 
 ## Why do you find it interesting?
 We found this project interesting because it is an easy way to create an IDS for personal home network usage.
