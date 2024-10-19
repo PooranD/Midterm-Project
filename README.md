@@ -1,22 +1,22 @@
 # CSN 150 Midterm-Project
 
-## ESP32 as a WiFi Intrusion Detection System
+## ESP32 as a WiFi based Intrusion Detection System
 
 ## by Emmanuel Apeatu and Pooran Dunraj
 
 ## Purpose
-The purpose of this project is to utilize ESP32 as a WiFi Intrusion Detection System. It will detect and log the unkown mac address of machines connecting to an assigned Wifi.
+The purpose of this project is to utilize ESP32 as a WiFi based Intrusion Detection System. It will detect and log the unknown mac addresses of router devices connected around a network.
 
 ## Equipment
 An ESP32 and a computer is required to perform this project.
 
 ## What does the project do?  
-This project uses an ESP32 as a device to detect machines trying to connnect to a Wifi it is assigned to. 
+This project uses an ESP32 device to detect unknown routter devices around a network.
 
 ## Why do you find it interesting?
-We found this project interesting because it is an easy way to create an IDS for personal home network usage.
+We found this project interesting because it is an easy way to create an IDS for personal home networks to detect and log information about uknown router devices that might pose a security risk.
 
-## Steps we followed
+## Steps we followed (Subjected to change)
 Steps Followed for Logging Unknown MAC Addresses
 1. Setup Environment:
 We used Arduino IDE and set up the ESP32 board via the Board Manager.
@@ -49,7 +49,7 @@ Updated the handleRoot function to send the logged unknown MAC addresses to the 
 8. LED Indication:
 Used an LED to signal the detection of an unknown MAC address by turning it on for a short duration. 
 
-## Problems
+## Problems (Subjected to change)
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
 1. MAC Address Not Detected:
 Issue: Unknown MAC addresses were not being logged correctly.
