@@ -11,7 +11,7 @@ The purpose of this project is to utilize ESP32 as a WiFi based Intrusion Detect
 An ESP32 and a computer is required to perform this project.
 
 ## What does the project do?  
-This project uses an ESP32 device to detect unknown routter devices around a network.
+This project uses an ESP32 device to detect unknown router devices around a network.
 
 ## Why do you find it interesting?
 We found this project interesting because it is an easy way to create an IDS for personal home networks to detect and log information about uknown router devices that might pose a security risk.
