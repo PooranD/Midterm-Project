@@ -8,7 +8,7 @@
 The purpose of this project is to utilize ESP32 as a WiFi Monitoring Alert System. It will detect and log the unknown mac addresses of devices connected around a network.
 
 ## Equipment
-An ESP32 and a computer is required to perform this project.
+ESP32 Microcontroller, Computer, Wifi Network, Arduino IDE, and ESP32 Wifi Libraries for Web Server.
 
 ## What does the project do?  
 This project uses an ESP32 device to detect unknown devices around a network.
