@@ -14,7 +14,7 @@ An ESP32 and a computer is required to perform this project.
 This project uses an ESP32 device to detect unknown devices around a network.
 
 ## Why do you find it interesting?
-We found this project interesting because it is an easy way to create a monitoring system for personal home networks to detect and log information about uknown devices that might pose a security risk.
+We found this project interesting because it is an easy way to create a monitoring alert system for personal home networks to detect and log information about uknown devices that might pose a security risk.
 
 ## Steps we followed (Subjected to change)
 Steps Followed for Logging Unknown MAC Addresses
