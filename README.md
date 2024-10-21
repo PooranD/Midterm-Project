@@ -1,11 +1,11 @@
 # CSN 150 Midterm-Project
 
-## ESP32 as a WiFi based Intrusion Detection System
+## ESP32 as a WiFi Monitoring Alert System
 
 ## by Emmanuel Apeatu and Pooran Dunraj
 
 ## Purpose
-The purpose of this project is to utilize ESP32 as a WiFi based Intrusion Detection System. It will detect and log the unknown mac addresses of router devices connected around a network.
+The purpose of this project is to utilize ESP32 as a WiFi Monitoring Alert System. It will detect and log the unknown mac addresses of router devices connected around a network.
 
 ## Equipment
 An ESP32 and a computer is required to perform this project.
@@ -14,7 +14,7 @@ An ESP32 and a computer is required to perform this project.
 This project uses an ESP32 device to detect unknown router devices around a network.
 
 ## Why do you find it interesting?
-We found this project interesting because it is an easy way to create an IDS for personal home networks to detect and log information about uknown router devices that might pose a security risk.
+We found this project interesting because it is an easy way to create a monitoring system for personal home networks to detect and log information about uknown router devices that might pose a security risk.
 
 ## Steps we followed (Subjected to change)
 Steps Followed for Logging Unknown MAC Addresses
