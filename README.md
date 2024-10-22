@@ -66,3 +66,6 @@ Solution: Ensured server.handleClient() was called in the loop to process incomi
 4. Code Compilation Errors:
 Issue: Errors related to undefined functions or types.
 Solution: Checked the code for typos and ensured all necessary libraries were included and properly referenced.
+
+5. ARP table issues:
+   Issue: ESP32 couldn't retrieve ARP table from router to print IP addresses of all devices
