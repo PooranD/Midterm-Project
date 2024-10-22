@@ -16,7 +16,7 @@ This project uses an ESP32 device to detect unknown devices around a network.
 ## Why do you find it interesting?
 We found this project interesting because it is an easy way to create a monitoring alert system for personal home networks to detect and log information about uknown devices that might pose a security risk.
 
-## Steps we followed (Subjected to change)
+## Steps we followed 
 Steps Followed for Logging Unknown MAC Addresses
 1. Setup Environment:
 We used Arduino IDE and set up the ESP32 board via the Board Manager.
@@ -49,7 +49,7 @@ Updated the handleRoot function to send the logged unknown MAC addresses to the 
 8. LED Indication:
 Used an LED to signal the detection of an unknown MAC address by turning it on for a short duration. 
 
-## Problems (Subjected to change)
+## Problems 
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
 1. MAC Address Not Detected:
 Issue: Unknown MAC addresses were not being logged correctly.
