@@ -2,11 +2,11 @@ Enter code here
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "SSID";  // Replace with your network SSID
-const char* password = "PASSWORD";  // Replace with your network password
+const char* ssid = "SSID"; 
+const char* password = "PASSWORD"; 
 
-const int ledPin = 4;  // Pin for LED
-const int scanTime = 10000;  // Time to scan for devices in milliseconds
+const int ledPin = 4; 
+const int scanTime = 10000;  
 
 // Known MAC addresses (replace with your own)
 const char* knownMacs[] = {
@@ -16,13 +16,13 @@ const char* knownMacs[] = {
   "A6:CF:D2:5F:9A:7B"
 };
 
-WebServer server(80);  // Set up web server on port 80
-String logMessage = "";  // String to hold the log messages
+WebServer server(80);  
+String logMessage = ""; 
 
 void setup() {
   Serial.begin(115200);
   pinMode(ledPin, OUTPUT);
-  digitalWrite(ledPin, LOW);  // Turn off LED initially
+  digitalWrite(ledPin, LOW); 
 
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
@@ -32,50 +32,50 @@ void setup() {
   Serial.println("Connected to WiFi");
   Serial.println("IP Address: " + WiFi.localIP().toString());
 
-  // Start the web server
-  server.on("/", handleRoot);  // Define route for root URL
-  server.begin();  // Start the web server
+ 
+  server.on("/", handleRoot); 
+  server.begin();  
   Serial.println("HTTP server started");
 }
 
 void loop() {
-  server.handleClient();  // Handle client requests to the web server
+  server.handleClient(); 
 
-  // Scan for devices and log unknown MAC addresses
+ 
   Serial.println("Scanning for devices...");
   int n = WiFi.scanNetworks();
   for (int i = 0; i < n; ++i) {
-    String macAddress = WiFi.BSSIDstr(i);  // Get MAC address of the device
+    String macAddress = WiFi.BSSIDstr(i); 
     if (!isKnownMac(macAddress)) {
-      // Log the unknown MAC address to the logMessage
-      Serial.println("Unknown MAC Address detected: " + macAddress);
-      logMessage += "Unknown MAC Address detected: " + macAddress + "\n";  // Append to logMessage
       
-      // Signal intrusion with LED
-      digitalWrite(ledPin, HIGH);  // Turn on LED
+      Serial.println("Unknown MAC Address detected: " + macAddress);
+      logMessage += "Unknown MAC Address detected: " + macAddress + "\n";
+      
+     
+      digitalWrite(ledPin, HIGH);
       delay(5000);  // Keep LED on for 5 seconds
-      digitalWrite(ledPin, LOW);  // Turn off LED
+      digitalWrite(ledPin, LOW);
     }
   }
-  WiFi.scanDelete();  // Clear the list of scanned devices
-  delay(scanTime);  // Wait before the next scan
+  WiFi.scanDelete();
+  delay(scanTime); 
 }
 
 bool isKnownMac(String macAddress) {
-  // Check if the scanned MAC address is in the list of known addresses
+ 
   for (const char* knownMac : knownMacs) {
     if (macAddress.equalsIgnoreCase(knownMac)) {
-      return true;  // MAC address is known
+      return true;  
     }
   }
-  return false;  // MAC address is unknown
+  return false;  
 }
 
 void handleRoot() {
-  // Send the logMessage to the web browser when accessing the ESP32's IP address
+ 
   if (logMessage.length() > 0) {
-    server.send(200, "text/plain", logMessage);  // Send the logMessage to the client
+    server.send(200, "text/plain", logMessage); 
   } else {
-    server.send(200, "text/plain", "No intrusions logged.");  // If no logs, send default message
+    server.send(200, "text/plain", "No intrusions logged.");  
   }
 }
